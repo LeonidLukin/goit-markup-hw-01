@@ -74,9 +74,41 @@ a:hover{
     border-radius: 4px;
 }
 
-
-
-
+/*style peculiarities*/
+.peculiarities{
+    width: 1170px;
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+.peculiarities_section{
+    display: flex;
+    justify-content: center;
+}
+.peculiarities_section ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.peculiarities_list{
+    width: 270px;
+    list-style-type: none;
+    padding: 94px 0 94px 0;
+}
+.peculiarities_list:not(:last-child) {
+    padding-right: 30px;
+}
+.peculiarities_list h3{
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121
+    ;
+}
+.peculiarities_list p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575
+    ;
+}
 
 
 
