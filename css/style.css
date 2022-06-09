@@ -1,12 +1,14 @@
+/* Global styles */
 body{
     padding: 0;
     margin: 0;
 }
+
+/* Header styles */
 header nav {
     display: flex;
     justify-content: space-around;
     padding: 24px;
-    border-bottom: 1px solid #000;
 }
 .logo{
     text-decoration: none;
@@ -44,6 +46,37 @@ a:hover{
 .address a:last-child{
     padding-left: 90px;
 }
+
+/* Hero styles */
+.hero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #2F303A;
+    height: 600px;
+    color: #fff;
+}
+.hero_section{
+   margin: auto 0;
+}
+.hero h1 {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    width: 696px;
+    margin-bottom: 1.5em;
+}
+
+.hero a{
+    color: #fff;
+    background-color: #2196F3;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+
+
+
 
 
 
