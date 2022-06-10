@@ -31,7 +31,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main">
         <div class="hero">
             <section class="hero_section">
                 <h1>Эффективные решения для вашего бизнеса</h1>
@@ -39,77 +39,87 @@
             </section>
         </div>
     
-        <div class="peculiarities">
-            <section class="peculiarities_section">
-                <ul class="peculiarities_box">
-                    <li class="peculiarities_list">
-                        <h3>Внимание к деталям</h3>
-                        <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        <div class="peculiarities_wrapper">
+            <section class="peculiarities_box">
+                <ul class="peculiarities_list">
+                    <li class="peculiarities_item">
+                        <h3 class="peculiarities_title">Внимание к деталям</h3>
+                        <p class="peculiarities_descr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="peculiarities_list">
-                        <h3>Пунктуальность</h3>
-                        <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <li class="peculiarities_item">
+                        <h3 class="peculiarities_title">Пунктуальность</h3>
+                        <p class="peculiarities_descr">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="peculiarities_list">
-                        <h3>Планирование</h3>
-                        <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <li class="peculiarities_item">
+                        <h3 class="peculiarities_title">Планирование</h3>
+                        <p class="peculiarities_descr">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="peculiarities_list">
-                        <h3>Современные технологии</h3>
-                        <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <li class="peculiarities_item">
+                        <h3 class="peculiarities_title">Современные технологии</h3>
+                        <p class="peculiarities_descr">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </section>
         </div>
     
-        <div class="occupation">
-            <section>
-                <h2>Чем мы занимаемся</h2>
-                <ul>
-                    <li><img src="./images/box1.png" alt="man's hends on the keyboard"></li>
-                    <li><img src="./images/box2.png" alt="woman hold the cellphone and work on the computer"></li>
-                    <li><img src="./images/box3.png" alt="design color palette on the tablet"></li>
+        <div class="activity_wrapper">
+            <section class="activity_box">
+                <h2 class="activity_title title">Чем мы занимаемся</h2>
+                <ul class="activity_list">
+                    <li class="activity_item"><img src="./images/box1.png" alt="man's hends on the keyboard"></li>
+                    <li class="activity_item"><img src="./images/box2.png" alt="woman hold the cellphone and work on the computer"></li>
+                    <li class="activity_item"><img src="./images/box3.png" alt="design color palette on the tablet"></li>
                 </ul>
             </section>
         </div>
     
-        <div class="out_team">
-            <section>
-                <h2>Наша команда</h2>
-                <ul class="team">
+        <div class="team">
+            <section class="team_box">
+                <h2 class="title">Наша команда</h2>
+                <ul class="team_list">
                     <li class="team_card">
                         <img src="./images/team/igorDem.jpg" alt="man with glasses">
-                        <h3>Игорь Демьяненко</h3>
-                        <p>Product Designer</p>
+                        <div class="card_wrapper">
+                            <h3 class="team_member_name">Игорь Демьяненко</h3>
+                            <p>Product Designer</p>
+                        </div>
                     </li>
                     <li class="team_card">
                         <img src="./images/team/OlgaRep.jpg" alt="woman with glasses">
-                        <h3>Ольга Репина</h3>
-                        <p>Frontend Developer</p>
+                        <div class="card_wrapper">
+                            <h3 class="team_member_name">Ольга Репина</h3>
+                            <p>Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team_card">
                         <img src="./images/team/NikolayTar.jpg" alt="man">
-                        <h3>Николай Тарасов</h3>
-                        <p>Marketing</p>
+                        <div class="card_wrapper">
+                            <h3 class="team_member_name">Николай Тарасов</h3>
+                            <p>Marketing</p>
+                        </div>
                     </li>
                     <li class="team_card">
                         <img src="./images/team/MichaelErm.jpg" alt="man with glasses">
-                        <h3>Михаил Ермаков</h3>
-                        <p>UI Designer</p>
+                        <div class="card_wrapper">
+                            <h3 class="team_member_name">Михаил Ермаков</h3>
+                            <p>UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </section>
         </div>
     </main>
 
-    <footer>
-        <a href="" class="logo_footer">Web Studio</a>
-
-        <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <a href="mailto:info@example.com">info@example.com</a>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <a href="" class="logo_footer">Web<span>Studio</span> </a>
+    
+            <address class="footer_address">
+                <p class="footer_address_loc footer_contact">г. Киев, пр-т Леси Украинки, 26</p>
+                <a class="footer_contact mail" href="mailto:info@example.com">info@example.com</a>
+                <a class="footer_contact phone" href="tel:+380991111111">+38 099 111 11 11</a>
+            </address>
+        </div>
     </footer>
     
 </body>
