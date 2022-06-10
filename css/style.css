@@ -4,6 +4,10 @@ body{
     margin: 0;
     font-family: "Roboto";
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
 h1,h2,h3{
     margin: 0;
 }
@@ -23,10 +27,13 @@ p{
 .header{
     width: 1170px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
 }
 header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 24px;
 }
 .logo{
@@ -35,6 +42,7 @@ header nav {
     font-family: 'Oswald', sans-serif;
     font-family: 'Raleway', sans-serif;
     color: #2196F3;
+    margin: 0 94px 0 0;
 }
 .logo>span{
     color: #000;
@@ -46,10 +54,12 @@ header nav {
     justify-content: space-between;
     width: 294px;
 }
+.header__nav_link{
+    margin: auto 0;
+}
 
-a{
+.header_addres_link{
     font-style: normal;
-    text-decoration: none;
     color: #000;
     /* font-family: "Roboto"; */
 }
@@ -85,11 +95,12 @@ a:hover{
     margin-bottom: 1.5em;
 }
 
-.hero a{
+.btn{
     color: #fff;
     background-color: #2196F3;
     padding: 1em 2em;
     border-radius: 4px;
+    border: none;
 }
 
 /*style peculiarities*/
@@ -119,6 +130,7 @@ a:hover{
     font-size: 14px;
     font-weight: 700;
     color: #212121;
+    margin: 0 0 10px 0;
 }
 .peculiarities_descr{
     font-size: 14px;
