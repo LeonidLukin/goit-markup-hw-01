@@ -20,6 +20,10 @@ p{
 }
 
 /* Header styles */
+.header{
+    width: 1170px;
+    margin: 0 auto;
+}
 header nav {
     display: flex;
     justify-content: space-around;
